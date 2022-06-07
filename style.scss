@@ -1,0 +1,23 @@
+@mixin position {
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+$width: max-content;
+
+.text-container {
+  @include position;
+  top: 40%;
+  width: $width;
+  padding: 10px;
+
+  #bg-text-show {
+    font-weight: bold;
+  }
+}
+
+.btn {
+  @include position;
+  top: 52%;
+}
