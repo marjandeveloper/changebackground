@@ -1,20 +1,20 @@
-.text-container {
+.container {
   position: absolute;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
-  top: 40%;
-  width: max-content;
-  padding: 10px;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
 }
-.text-container #bg-text-show {
-  font-weight: bold;
+.container .text-container {
+  padding-bottom: 1em;
 }
-
-.btn {
-  position: absolute;
-  left: 50%;
+.container .btn {
+  margin-left: 50%;
   transform: translateX(-50%);
-  top: 52%;
 }
 
 /*# sourceMappingURL=style.css.map */

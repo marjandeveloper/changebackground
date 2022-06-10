@@ -11,6 +11,6 @@ function changeBgColor() {
   for (let i = 0; i < 6; i++) {
     backgroundColor += hexColorArr[Math.floor(Math.random() * 15)]
   }
+  document.body.style.backgroundColor = backgroundColor
   getBgColor.textContent = backgroundColor
-  textContainer.style.backgroundColor = backgroundColor
 }
